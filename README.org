@@ -1,0 +1,17 @@
+#+TITLE: Emacs-Configuration-On-Laptop
+
+* Introduction
+  This repo is all ~Emacs~ *configuration* on Laptop.
+
+** Content
+   - Company mode
+   - Flycheck mode
+   
+   - Lua mode
+
+   - Merlin
+   - Tuareg
+   - Utop
+
+   - Markdown mode
+   - YAML mode
