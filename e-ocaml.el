@@ -2,6 +2,8 @@
 ;;; Commentary:
 ;;;
 ;;; Code:
+(autoload 'utop "utop" "Toplevel for OCaml" t)
+
 (autoload 'merlin-mode "Merlin" "Merlin mode" t nil)
 
 (autoload 'tuareg-mode  "Tuareg" "Tuageg mode" t nil)
