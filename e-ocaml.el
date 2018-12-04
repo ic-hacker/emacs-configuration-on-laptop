@@ -8,9 +8,9 @@
 
 (autoload 'tuareg-mode  "Tuareg" "Tuageg mode" t nil)
 
-(load "/home/ic_hacker/.opam/4.06.1/share/emacs/site-lisp/merlin.el")
-(load "/home/ic_hacker/.opam/4.06.1/share/emacs/site-lisp/tuareg-site-file.el")
-(load "/home/ic_hacker/.opam/4.06.1/share/emacs/site-lisp/merlin-company.el")
+(load "/home/ic_hacker/.opam/default/share/emacs/site-lisp/merlin.el")
+(load "/home/ic_hacker/.opam/default/share/emacs/site-lisp/tuareg-site-file.el")
+(load "/home/ic_hacker/.opam/default/share/emacs/site-lisp/merlin-company.el")
 
 (let ((opam-share (ignore-errors (car (process-lines "opam" "config" "var" "share")))))
   (when (and opam-share (file-directory-p opam-share))
